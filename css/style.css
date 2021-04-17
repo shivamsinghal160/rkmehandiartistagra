@@ -236,6 +236,19 @@
     margin: 20px;
 }
 
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1s ease;
+    
+}
+
+.inner:hover img{
+    transform:scale(1.1);
+}
+
 .card-text{
     font-family: 'baloo bhai 2', cursive;
 }
