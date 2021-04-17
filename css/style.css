@@ -5,7 +5,7 @@
 }
 
 
-.fullweb{
+#fullweb{
     display: none;
 }
 
@@ -20,7 +20,11 @@
 
 #preloader img{
     width:650px;
-}
+} 
+
+/* #preloader{
+    /* display: flex; */
+/* } */ */
 
 
 /* Navbar */
