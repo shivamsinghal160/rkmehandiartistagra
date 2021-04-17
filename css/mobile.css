@@ -1,0 +1,152 @@
+/* Preloader */
+
+#preloader img{
+    width: 450px;
+}
+
+
+
+/* Navbar Starts */
+
+
+
+nav ul{
+    flex-direction: column;
+    
+}
+
+.left-nav{
+    width: 55%;
+    margin-left:15px;
+}
+
+.right-nav{
+    display: none;
+    height:275px;
+}
+
+.hamburger img{
+    display: block;
+}
+
+/* Home Section Starts */
+
+#home h2{
+    font-size:30px;
+}
+
+.btn{
+    font-size:16px;
+    width:130px;
+}
+
+/* About Us Section Starts */
+
+#aboutus{
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-about{
+    width: 90%;
+}
+
+.left-about{
+    width:90%;
+}
+
+#aboutus img{
+    width:325px;
+    height: 175px
+}
+
+/* Gallery Section Starts */
+
+.additionalgallery{
+    flex-direction: column;
+}
+
+#gallery img{
+    height: 250px;
+}
+
+/* Why Us Section Starts */
+
+.additionalclass{
+    flex-direction: column;
+}
+
+.whyuscontent{
+    flex-direction: column;
+}
+
+.left-whyus{
+    width: 80%;
+}
+
+.right-whyus{
+    width: 80%;
+}
+
+/* Contact Us Section Starts */
+
+#contactus{
+    flex-direction:column-reverse;
+    font-size: 12.5px;
+}
+
+#contactus img{
+    margin-left:0;
+    margin-right:10px;
+    width:40px;
+}
+
+.right-contact{
+    width: 90%;
+}
+
+.left-contact{
+    width:100%;
+    margin-left: 5px;
+}
+
+/* footer Section Starts  */
+
+footer{
+    height:80px;
+}
+
+.right-footer{
+    width:60%;
+    margin-top:25px;
+}
+
+.left-footer{
+    width: 30%;
+    margin-top:10px ;
+}
+
+.social-links{
+    margin-left: -3px;
+    margin-bottom: -10px;
+}
+
+footer img{
+    width: 40px;
+}
+
+.inst{
+    width: 31px;
+}
+
+.left-footer a{
+    font-size:13px;
+    font-weight: 600;
+}
+
+.right-footer p{
+    font-size: 13px;
+    font-weight:600;
+    margin-top: -15px;
+}
