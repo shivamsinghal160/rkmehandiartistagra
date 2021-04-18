@@ -234,10 +234,13 @@
 
 .card{
     margin: 20px;
+    border-radius: 15px;
 }
 
 .inner{
     overflow: hidden;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
 }
 
 .inner img{
