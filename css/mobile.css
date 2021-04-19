@@ -91,7 +91,7 @@ nav ul{
 
 #contactus{
     flex-direction:column-reverse;
-    font-size: 12.5px;
+    font-size: 12px;
 }
 
 #contactus img{
@@ -106,7 +106,7 @@ nav ul{
 
 .left-contact{
     width:100%;
-    margin-left: 5px;
+    margin-left: 25px;
 }
 
 /* footer Section Starts  */
