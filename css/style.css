@@ -4,12 +4,11 @@
     padding: 0;
 }
 
+/* Preloader */
 
 #fullweb{
     display: none;
 }
-
-/* Preloader */
 
 #preloader{
     display: flex;
@@ -21,8 +20,6 @@
 #preloader img{
     width:650px;
 } 
-
-
 
 /* Navbar */
 

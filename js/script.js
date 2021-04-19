@@ -4,7 +4,7 @@
 let alerts = document.querySelector('.alert')
 function resetForm() {
     document.contact-form.reset();
-    }
+}
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzzx3h9W46zFbRjJaXGmqQZCr3CNHssnrBOnGLax8qk7hTDq4aJ/exec'
 const form = document.forms['form']
 
@@ -24,20 +24,15 @@ let burger = document.querySelector('.hamburger')
 let navbar = document.querySelector('.navbar')
 let rightnav = document.querySelector('.right-nav')
 
-
 burger.addEventListener('click', () => {
     if (rightnav.style.display != 'block') {
         navbar.style.background = 'white';
         navbar.style.height = '400px';
         rightnav.style.display = 'block';
-        rightnav.style.transform = 'translateY(-10px)';
-
-        
     } else {
         navbar.style.height = '100px';
         navbar.style.background = 'linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255,0.0))';
         rightnav.style.display = 'none';
-        rightnav.style.transform = 'translateY(-50px)';
     }
 })
 
