@@ -1,16 +1,22 @@
 
 // For Sending Mail of Contact Us Page
 
+let alerts = document.querySelector('.alert')
+function resetForm() {
+    document.contact-form.reset();
+    }
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzzx3h9W46zFbRjJaXGmqQZCr3CNHssnrBOnGLax8qk7hTDq4aJ/exec'
 const form = document.forms['form']
 
 form.addEventListener('submit', e => {
     e.preventDefault()
-    alert("Thanks for Contacting us...! We Will Contact You Shortly...");
+    alerts.style.display = 'block';
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => alert("For More Details!!! You Can Also Mail Us On Our Official Mail Id:- rkmehendiartistagra@gmail.com !!!"))
-        .catch(error => console.error('Error!', error.message))
+    .then(response => console.log('message send Successfully'))
+    .catch(error => console.error('Error!', error.message))
+    .then(resetForm())
 })
+
 
 // For Navbar Hamburger
 
