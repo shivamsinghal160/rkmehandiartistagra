@@ -20,15 +20,15 @@ let rightnav = document.querySelector('.right-nav')
 
 
 burger.addEventListener('click', () => {
-    if (rightnav.style.display != 'none') {
+    if (rightnav.style.display != 'block') {
+        navbar.style.background = 'white';
+        navbar.style.height = '400px'
+        rightnav.style.display = 'block';
+        
+    } else {
         navbar.style.height = '100px';
         navbar.style.background = 'linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255,0.0))';
         rightnav.style.display = 'none';
-        
-    } else {
-        navbar.style.height = '400px'
-        navbar.style.background = 'white';
-        rightnav.style.display = 'block';
     }
 })
 
