@@ -1,0 +1,52 @@
+/* Navbar */
+
+.navbar{
+    background:  rgb(255,187,0) !important;
+}
+
+.rigul{
+    background:url(../assets/images/home\ icon.png) no-repeat !important;
+    transition: all 0.4s ease-in-out !important;
+    height:64px !important;
+    width:64px !important;
+    transform: scale(0.6) !important;
+    float: right !important;
+}
+
+.right-nav{
+    display:block !important;
+    height:75px !important;
+    margin-right: 6px !important;
+}
+
+.rigul:hover{
+    background:url(../assets/images/home\ icon-white.png) no-repeat !important;
+}
+
+/* Gallery Heading  */
+
+#gallery{
+    padding-top:145px !important;
+}
+
+#gallery h2{
+    font-size: 52px !important;
+    padding-bottom: 15px !important;
+}
+
+/* Gallery images */
+
+.images{
+    display:flex !important;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.image{
+    margin: 15px 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    
+}
