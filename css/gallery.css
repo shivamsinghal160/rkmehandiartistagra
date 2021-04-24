@@ -48,5 +48,9 @@
     border: 2px solid black;
     border-radius: 25px;
     overflow: hidden;
-    
+    transition: all 0.5s ease;
+}
+
+.image:hover{
+    transform: scale(1.1);
 }
