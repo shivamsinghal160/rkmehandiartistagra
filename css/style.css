@@ -440,13 +440,13 @@ footer{
     margin-left:5px ;
 }
 
-footer img{
+.left-footer img{
     width: 50px;
     color: black;
     opacity: 0.6; 
 }
 
-footer img:hover{
+.left-footer img:hover{
     opacity: 1;
 }
 
