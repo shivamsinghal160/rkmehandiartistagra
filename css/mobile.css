@@ -146,8 +146,26 @@ footer img{
     font-weight: 600;
 }
 
-.right-footer p{
+.right-footer p , .shivam-con{
     font-size: 13px;
     font-weight:600;
     margin-top: -15px;
+}
+
+.btn-small{
+    width: 50px;
+    margin: 0;
+    font-size:10px;
+    font-weight:600;
+    color: black;
+    border: 1px solid black ;
+    padding:0;
+    margin-left:2px ;
+}
+
+
+.profile-information{
+    font-size:13.5px;
+    margin-left: -35px;
+    margin-right: 0 ;
 }

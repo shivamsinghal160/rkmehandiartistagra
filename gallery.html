@@ -16,9 +16,7 @@
     <!-- Link Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <!-- Link Css -->
     <link rel="stylesheet" href="css/gallery.css">
@@ -27,7 +25,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" type="text/css"> -->
 
     <!-- Link JavaScript For Preloader -->
     <script src="js/preloader.js"></script>
@@ -136,9 +133,38 @@
             </div>
             <div class="right-footer">
                 <p>&copy;2021 R.K Mehendi Artist Agra, All Rights Reserved.</p>
-                <p>Developed By <a href="https://www.instagram.com/shiv.amgraphics/" target="_blank"> Shivam Singhal
-                    </a>
-                </p>
+                <div class="shivam-con">Developed By <a href="https://www.instagram.com/shiv.amgraphics/" target="_blank"> Shivam Singhal </a> <!-- Button trigger modal -->
+                    <div class="shivam" data-bs-toggle="modal" data-bs-target="#exampleModal"><button class=" btn btn-small" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</button></div>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contact Information</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="profile-photo">
+                                <img src="/assets/images/Shivam Singhal Photo for Online Platform.jpg" alt="Shivam Image">
+                                <h3 class="name">Shivam Singhal</h3>
+                            </div>
+                            <div class="profile-information">
+                                <ul>
+                                    <li> <img src="assets/images/Tel Logo BW.png" alt="tel"> <a href="tel:7983772647 "> +91 7983772647 </a></li>
+                                    <li> <img src="assets/images/Mail Logo BW.png" alt="mail"> <a href="mailto:graphics.shivamsinghal@gmail.com">graphics.shivamsinghal@gmail.com </a></li>
+                                    <li> <img src="assets/images/web logo BW.png" alt="web"> <a href="https://www.shivamgraphics.gq" target="_blank"> shivamgraphics.gq </a></li>
+                                    
+                                </ul>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
             </div>
         </footer>
 
